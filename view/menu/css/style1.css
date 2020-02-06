@@ -1,0 +1,86 @@
+html{
+	margin:0;
+}
+body{
+	background-image: url(../imagens/cidade1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100vw;		
+	background-attachment: fixed;
+	background-size: cover;
+}
+.card-deck{	
+	width: 90vw;
+	padding-bottom: 2rem;
+}
+.card{
+    border: 3px solid rgba(255,255,255);
+    transition: 1s;
+    border-radius: 10px; 
+}
+.card:hover{
+	border: 3px solid #007BFF;
+	transition: .5s;
+}
+.rodape{
+	padding: .5rem;
+	background-color:#007BFF; 
+	color: white;
+	font-size: 1.25rem;
+	text-shadow: 2px 2px 2px black;
+}
+.carousel{
+	margin: auto;
+	border: 3px solid rgb(0,0,0);
+}
+.carousel-inner{
+	max-height:65vh;
+}
+
+@media only screen and (max-device-width: 576px) { 
+	img {
+   	 max-height: 31vh;
+	}
+	.navbar > a {
+    padding: 2rem 2rem;
+    font-size: 2rem;  
+	}
+	.navbar > .navbar-toggler-ico {
+    width: 5em;
+    height: 3em;  
+	}
+	.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+	}
+	div > ul>a{
+		font-size: 1.8rem;
+	}
+	div > ul>li> div >a {
+		font-size: 1.5rem;
+	}
+	div> button>{
+		font-size: 1.5rem;
+	}
+	#conteudoNavbarSuportado > form > button{
+		font-size: 1.5rem;
+	}
+	#conteudoNavbarSuportado > form > input{
+		font-size: 1.5rem;
+		padding: 1.4rem;
+
+	}
+	body > nav > button > span{
+		width: 5em;
+    	height: 3em;  
+
+	}
+	body > nav > button{
+		width: 5em;
+    	height: 3em;  
+	}
+	body > nav > a{
+		margin-left: 30vw;
+	}
+}
+
